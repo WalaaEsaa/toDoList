@@ -1,0 +1,78 @@
+body{
+    background: #eaeaea;
+    background: linear-gradient(linear-gradient, #755046, #feb47b);
+}
+.container{
+    background: #fff;
+    /* border: 2px solid gray; */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        /* Shadow effect */
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+    min-height:400px ;
+    padding-bottom: 5px;
+
+}
+.addTask{
+    width: 98%;
+    display: flex;
+    padding: 10px 0px;
+}
+.addTask > input[type='text']{
+    width: 90%;
+    color: #333;
+    border: none;
+    border-bottom: 2px solid #666;
+    padding: none;
+    padding: 10px ;
+    background: none;
+    outline: none;
+    font-size: 22px;
+}
+
+/* ol li::before{
+    border: #231381;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 2rem;
+    text-align: center;
+    color: #fff;
+    margin-right: .5rem;
+    counter-increment: 1;
+} */
+ol{
+    list-style: none;
+}
+ol li{
+    width: 90%;
+    padding: 18px;
+    margin: 5px;
+    background: rgb(233, 127, 127);
+    border-radius: 5px;
+}
+ol.Completed li{
+    background: scroll#00ff62;
+}
+li button{
+    float: right;
+    padding: 2px;
+    font-size: 28px;
+    line-height: 18px;
+    margin-right: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+h1{
+    color: crimson;
+    text-align: center;
+}
+button{
+    background-color: #000;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 28px;
+}
